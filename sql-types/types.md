@@ -58,8 +58,8 @@
 
 | | | |
 |---|---|---|
-INT SIGNED  : -2147483648 to 2147483647
-    ||UNSIGNED: 0 to 4294967295
+|INT |SIGNED | : -2147483648 to 2147483647
+    ||UNSIGNED:| 0 to 4294967295
     >ex      : INT(255) - 255 bytes max
 
 
