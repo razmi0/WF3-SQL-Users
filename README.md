@@ -1,6 +1,6 @@
 ## SQL summary project 🐬
 
-<hr   />
+
 <p>
 This is a summary of the SQL project for the WF3 :
 <ul>
@@ -8,10 +8,10 @@ This is a summary of the SQL project for the WF3 :
 <li>Focus on CRUD operations.</li>
 </ul>
 </p>
+<hr   />
 
 ### Folders 📁
 
-<hr   />
 
 >[tables-md](https://github.com/razmi0/WF3-SQL-Users/tree/master/tables-md) : contains the tables brainstorming in markdown format.<br>
 [text](https://github.com/razmi0/WF3-SQL-Users/tree/master/text) : contains some extra-informations files for the project.<br>
