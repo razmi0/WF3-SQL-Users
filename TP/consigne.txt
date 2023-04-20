@@ -1,0 +1,21 @@
+
+## Exercice 1
+Enregistrer 5 articles 5 auteurs
+
+creer les auteurs puis les articles
+
+
+
+
+Art 1 , auteur 3 et 2 
+art 2 , auteur 3 
+art 3 , auteur 1 et 4 
+art 4 , auteur 4 et 2
+
+=> DANS LA TABLE ARTICLES AUTEURS
+
+## Exercice 2
+
+Recup le titre et la date de création des articles ecrit par l'auteirt id 3
+
+Recup les noms et prenoms des auteurs et titre de l'article , de l'article ID1
