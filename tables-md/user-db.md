@@ -1,32 +1,35 @@
 # TABLE USER
 ## TABLE USER BRAINSTORMING
-<hr  />
-<p>
-id-----------------------| mediumint(11) UNSIGNED<br>
-lastname (John)----------| varchar(60)<br>
-firstname (Doe)----------| varchar(60)<br>
-fullname (John Doe)------| varchar(121)<br>
-screenname (John D.)-----| varchar(63)<br>
-nickname-----------------| varchar(40)<br>
-email--------------------| varchar(255)<br>
-password-----------------| varchar(255) (hashage)<br>
-roles--------------------| enum('user', 'contributor' ,'moderator','admin')<br>
-birth_place--------------| varchar(60)<br>
-birth_date---------------| Date<br>
-gender-------------------| enum('M', 'N', 'F')<br>
-phone_number-------------| varchar(20)<br>
-Profile_Picture----------| varchar(40) (md5 + exetention)<br>
-Profile_Banner-----------| varchar()<br>
-Profile_Description------| text()<br>
-register_date------------| DateTime<br>
-last_connection_date-----| DateTime<br>
-last_action_date---------| timestamp<br>
-country------------------| char(2)<br>
-isDeleted----------------| tinyint(1)<br>
-</p>
+
+
+|*COLUMN NAME*|*VALUE TYPE*|
+|---|---|
+|id| mediumint(11) UNSIGNED|
+|lastname (John)| varchar(60)|
+|firstname (Doe)| varchar(60)|
+|fullname (John Doe)| varchar(121)|
+|screenname (John D.)| varchar(63)|
+|nickname| varchar(40)|
+|email| varchar(255)|
+|password| varchar(255) (hashage)|
+|roles| enum('u', 'c' ,'m','a')|
+|birth_place| varchar(60)|
+|birth_date| Date|
+|gender| enum('M', 'N', 'F')|
+|phone_number-| varchar(20)|
+|Profile_Picture| varchar(40)(md5 + extension)|
+|Profile_Banner| varchar(40)(md5 + extension)|
+|Profile_Description| text()|
+|register_date| DateTime|
+|last_connection_date| DateTime|
+|last_action_date| timestamp|
+|country| char(2)|
+|isDeleted| tinyint(1)|
+
+
 
 ## USER TABLE QUERY
-<hr  />
+
 
 ```sql
 CREATE TABLE `wf3_blog_demo`.`user` (
@@ -56,4 +59,3 @@ CREATE TABLE `wf3_blog_demo`.`user` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4;
 ```
-<hr   />

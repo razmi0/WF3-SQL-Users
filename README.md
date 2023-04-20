@@ -8,7 +8,6 @@ This is a summary of the SQL project for the WF3 :
 <li>Focus on CRUD operations.</li>
 </ul>
 </p>
-<hr   />
 
 ### Folders 📁
 
