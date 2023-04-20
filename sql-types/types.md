@@ -65,9 +65,9 @@
 
 | | | |
 |---|---|---|
-|**BIGINT** | *SIGNED*  : | -9223372036854775808 to 9223372036854775807
-       ||*UNSIGNED*: | 0 to 18446744073709551615
-       >ex      : BIGINT(255) - 255 bytes max
+|**BIGINT** | *SIGNED*  : | -9223372036854775808 to 9223372036854775807|
+||*UNSIGNED*: | 0 to 18446744073709551615|
+>ex      : BIGINT(255) - 255 bytes max
 
 
 FLOAT store as string deprecated
