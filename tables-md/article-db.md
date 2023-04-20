@@ -31,35 +31,35 @@
 
 | *COLUMN NAME* | *VALUES*|
 |---|---|
-|id| |
-|article_id| |
-|user_id| |
-|title| |
-|created_at| |
-|edit_at| |
-|publish_at| |
-|delete_at| |
-|delete_reason| |
-|counter_like| |
+|id| INT(11) PK NN UQ UN AI |
+|article_id| INT(11) UN |
+|user_id| MEDIUMINT() |
+|title| INT(11) UN |
+|created_at| varchar(120) |
+|edit_at| DATETIME |
+|publish_at| DATETIME |
+|delete_at| DATETIME |
+|delete_reason| ENUM('haine','harcelement','nudidité') |
+|counter_like| SMALLINT(5) |
 
 
 ### TABLE CATEGORY
 
 | *COLUMN NAME* | *VALUES*|
 |---|---|
-|id| |
-|value| |
-|color| |
-|illustration| |
+|id| INT(11) PK NN UQ UN AI |
+|value| varchar(20) |
+|color| char(6) |
+|illustration| varchar(40) |
 
 
 ### TABLE CATEGORY_ARTICLE
 
 | *COLUMN NAME* | *VALUES*|
 |---|---|
-|id| |
-|category_id| |
-|article_id| |
+|id| INT(11) PK NN UQ UN AI |
+|category_id| INT(11)  UN |
+|article_id| INT(11)  UN |
 
 
 
@@ -67,9 +67,9 @@
 
 | *COLUMN NAME* | *VALUES*|
 |---|---|
-|id| |
-|article_id| |
-|values| |
+|id| INT(11) PK NN UQ UN AI |
+|article_id| INT(11) UN |
+|values| varchar(60)|
 
 
 
@@ -77,9 +77,9 @@
 
 | *COLUMN NAME* | *VALUES*|
 |---|---|
-|id| |
-|article_id| |
-|user_id| |
+|id| INT(11) PK NN UQ UN AI |
+|article_id| INT(11)  UN |
+|user_id| INT(11)  UN |
 
 
 
@@ -87,8 +87,8 @@
 
 | *COLUMN NAME* | *VALUES*|
 |---|---|
-|id| |
-|user_id| |
-|article_id| |
-|url| |
+|id| INT(11) PK NN UQ UN AI |
+|user_id| INT(11)  UN |
+|label| varchar(80) |
+|url| varchar(80) |
 

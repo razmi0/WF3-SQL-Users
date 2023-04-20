@@ -39,7 +39,6 @@
   
 |*TYPE* |*+/-*| *RANGE*  |
 |---|---|---|
-| | | |
 |**TINYINT**| *SIGNED* : | -128 to 127 |
 ||*UNSIGNED*:| 0 to 255 |
 >ex : TINYINT(255) - 255 bytes max
@@ -80,16 +79,10 @@ FLOAT store as string deprecated
 
 
 
+####  DATE AND TIME DATA TYPES
 
-
-
-
-//----- DATE AND TIME DATA TYPES
-//----
-
-DATE - YYYY-MM-DD
-ex : DATE('YYYY-MM-DD')
-
-DATETIME - YYYY-MM-DD HH:MM:SS
-
-TIMESTAMP - YYYYMMDDHHMMSS since 1970
+|*TYPE* | *RANGE*  |
+|---|---|
+|**DATE** | YYYY-MM-DD|
+|**DATETIME** | YYYY-MM-DD HH:MM:SS
+|**TIMESTAMP** | YYYY-MM-DD-HH-MM-SS since 1970
