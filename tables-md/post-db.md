@@ -17,5 +17,8 @@ categorie<br>
 like<br>
 images<br>
 isshareable ?<br>
-
+résumé/extrait<br>
+<ul>Commentary
+    <li></li>
 </p>
+<hr  />
