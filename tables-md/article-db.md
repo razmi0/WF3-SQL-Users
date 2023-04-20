@@ -1,29 +1,30 @@
 # TABLE ARTICLE BRAINSTORMING
 ## TABLE ARTICLE
 
-| *COLUMN NAME* | *VALUES*|
+| *COLUMN NAME* | *VALUES* |
 |---|---|
-|id| |
-|slug| |
-|summary| |
-|excerpt_html| |
-|excerpt_text| |
-|illustration| |
-|illustration_excerpt| |
-|content_html| |
-|content_text| |
-|created_at| |
-|review_at | Date et heure de relecture|
-|publish_at | Date et heure de publication|
-|edit_at | Date et heure de dernière modification|
-|counter_view| |
-|counter_read| |
-|counter_applause| |
-|read_time | Temps moyen estimé de lecture du article|
-|reading_time | Temps passé à lire le article|
-|isShareable | Booléan |
-|isCommentable | Booléan |
-|isCommentActive | Booléan |
+|id| int(11) PK NN UQ AI |
+|title| varchar(120) |
+|slug| varchar(120) |
+|summary| TINYTEXT |
+|excerpt_html| TINYTEXT |
+|excerpt_text| TINYTEXT|
+|illustration| varchar(40) |
+|illustration_excerpt| varchar(40) |
+|content_html| TEXT |
+|content_text| TEXT |
+|created_at| DATETIME |
+|review_at | DATETIME (Date et heure de relecture)|
+|publish_at | DATETIME (Date et heure de publication)|
+|edit_at | DATETIME (Date et heure de dernière modification)|
+|counter_view| SMALLINT(5) |
+|counter_read| SMALLINT(5) |
+|counter_applause| SMALLINT(5) |
+|read_time | SMALLINT(4) (Temps moyen estimé de lecture du article)|
+|reading_time | SMALLINT(4) (Temps passé à lire le article)|
+|isShareable | TINYINT(1) |
+|isCommentable | TINYINT(1) |
+|isCommentActive | TINYINT(1) |
 
 
 ### TABLE COMMENT
